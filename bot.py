@@ -71,7 +71,7 @@ loop = asyncio.get_event_loop()
 
 async def start():
     print('\n')
-    print('Initalizing Tech VJ Bot')
+    print('Initalizing Tech CR Bot')
     bot_info = await StreamBot.get_me()
     StreamBot.username = bot_info.username
     await initialize_clients()
@@ -100,7 +100,7 @@ async def start():
     await web.TCPSite(app, bind_address, PORT).start()
     if CLONE_MODE == True:
         await restart_bots()
-    print("Bot Started Powered By @VJ_Botz")
+    print("Bot Started Powered By @creatorv_bots")
     await idle()
 
 # Don't Remove Credit Tg - @VJ_Botz
