@@ -20,7 +20,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "22787559"))
 API_HASH = environ.get("API_HASH", "e771139d8f3d4ae57f663ad049bbb710")
-BOT_TOKEN = environ.get("BOT_TOKEN", "6460887253:AAGMAa0UTSzGgJaTyxPkT6Bu8y5SJ0YbeXE")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7887991296:AAFDDjAmsJk_2NeCuG1tfPOrFZ2aylC3JFY")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/13df301c68e72d58c941a.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -31,8 +31,8 @@ PORT = environ.get("PORT", "8080")
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "-1002416236389")
+CDB_NAME = environ.get("CDB_NAME", "cloneCR")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "-1002117171789")
