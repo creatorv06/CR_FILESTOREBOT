@@ -36,7 +36,7 @@ CDB_NAME = environ.get("CDB_NAME", "cloneCR")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "-1002117171789")
-DB_NAME = environ.get("DB_NAME", "database")
+DB_NAME = environ.get("DB_NAME", "DB")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
