@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "e771139d8f3d4ae57f663ad049bbb710")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7887991296:AAFDDjAmsJk_2NeCuG1tfPOrFZ2aylC3JFY")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/13df301c68e72d58c941a.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6119837870').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "FileStoreBuilder_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
